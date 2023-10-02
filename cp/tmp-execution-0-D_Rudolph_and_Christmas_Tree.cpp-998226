@@ -1,0 +1,20 @@
+-=[ Output of D_Rudolph_and_Christmas_Tree.cpp ]=-
+Execution ID: 0
+
+
+== Compile/Data Errors =====
+Input of case 0 does not end in whitespace, this may cause stdin to wait forever for a delimiter
+
+== Case 0: Maybe =====
+Time: 8327ms
+Memory: 4726784kb
+Code: 0
+
+- Input ---
+
+- Actual Output ---
+
+- Expected Output ---
+null
+- Error Stream ---
+
