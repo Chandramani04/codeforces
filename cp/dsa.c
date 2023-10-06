@@ -2,25 +2,16 @@
 #include <stdio.h>
 
 int main() {
-    // declaring string
-    char str[100];
 
-    // reading string
-    scanf("%s", str);
-
-    // print string
-    // printf("%s", str);
-    int ans[10]={0};
-    for(int i = 0;i<50;i++){
-        if(str[i]==' ')break;
-        int cur = str[i]-'0';
-        if(cur>=0 && cur<10){
-            ans[cur]++;
-        }
+    int n;
+    scanf("%d",&n);
+    int ans = 0 ; 
+    while(n!=0){
+        int cur = n%10;
+        if(ans<cur)ans = cur ; 
+        n= n/10;
     }
-    for(int i = 0;i<10;i++){
-        printf("%d ",ans[i]);
-    }
+    printf("%d",ans);
 
     return 0;
 }
